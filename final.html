@@ -100,13 +100,10 @@
 
 
 
- <a-entity daydream-controls></a-entity>
- <!-- Match Daydream controller if present and for specified hand. -->
- <a-entity daydream-controls="hand: left"></a-entity>
- <a-entity daydream-controls="hand: right"></a-entity>
-            <!-- camara     --->
-            <a-entity   > 
-                <a-camera camera="fov:  90"    kinematic-body="radius:  0" wasd-controls="acceleration: 400"  scale="1 1 1" >
+ <a-entity daydream-controls>
+            
+            
+            <a-camera camera="fov:  90"    kinematic-body="radius:  0" wasd-controls="acceleration: 400"  scale="1 1 1" >
 
 
                     <!-- CURSOR --> 
@@ -124,6 +121,14 @@
 
 
                 </a-camera>
+            
+            </a-entity>
+ <!-- Match Daydream controller if present and for specified hand. -->
+ <a-entity daydream-controls="hand: left"></a-entity>
+ <a-entity daydream-controls="hand: right"></a-entity>
+            <!-- camara     --->
+            <a-entity   > 
+                
 
             </a-entity>
 
